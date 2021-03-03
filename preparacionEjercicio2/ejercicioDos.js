@@ -45,7 +45,7 @@ function probarEjercicio()
 	var continenteMasHabitantesCantidad=0;
 	var contadorTotalPaises=0;
 
-	for(var i=0;i<1;i++)
+	for(var i=0;i<5;i++)
 	{
 		continenteIngresado=prompt("Ingrese el continente (america, asia , europa, africa, oceania)");
 		while(continenteIngresado!="america" && continenteIngresado!="asia" && continenteIngresado!="europa" && continenteIngresado!="africa" && continenteIngresado!="oceania")
@@ -166,7 +166,7 @@ function probarEjercicio()
 	// MUESTRA DE RESULTADOS
 	document.write("a) La cantidad de temperaturas pares es: "+contadorTemperaturasPares+"</BR>");
 	document.write("b) La cantidad de temperaturas impares de europa es: "+contadorTemperaturasImparesEuropa+"</BR>");
-	document.write("c) El nombre del pais con menos habitantes es: "+paisMenosHabitantesCantidad+"</BR>");
+	document.write("c) El nombre del pais con menos habitantes es: "+paisMenosHabitantesNombre+"</BR>");
 	if(contadorPaisesSuperan40Grados!=0)
 	{
 		document.write("d) La cantidad de paises que superan los 40 grados es: "+contadorPaisesSuperan40Grados+"</BR>");
