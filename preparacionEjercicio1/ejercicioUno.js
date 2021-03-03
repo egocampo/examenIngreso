@@ -173,15 +173,15 @@ function probarEjercicio()
 	}
 	if(promedioTemperaturaGatos>promedioTemperaturaPerros && promedioTemperaturaGatos>promedioTemperaturaOtraCosa)
 	{
-		tipoMascotaMayorPromedioTemperaturaCorporal="gato"
+		tipoMascotaMayorPromedioTemperaturaCorporal="gato";
 	}
 	else if(promedioTemperaturaPerros>promedioTemperaturaGatos && promedioTemperaturaPerros>promedioTemperaturaOtraCosa)
 	{
-		tipoMascotaMayorPromedioTemperaturaCorporal="perros"
+		tipoMascotaMayorPromedioTemperaturaCorporal="perros";
 	}
 	else if(promedioTemperaturaOtraCosa>promedioTemperaturaGatos && promedioTemperaturaOtraCosa>promedioTemperaturaPerros)
 	{
-		tipoMascotaMayorPromedioTemperaturaCorporal="otra cosa"
+		tipoMascotaMayorPromedioTemperaturaCorporal="otra cosa";
 	}
 
 	cantidadGatosYPerros=contadorGatos+contadorPerros; // PUNTO F
